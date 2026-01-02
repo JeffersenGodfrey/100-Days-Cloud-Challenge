@@ -1,0 +1,37 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# Windows image file caches
+ehthumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Terraform
+.terraform/
+
+# Logs
+logs/
+*.log
+
+# Mac
+.DS_Store

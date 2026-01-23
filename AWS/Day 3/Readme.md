@@ -1,1 +1,29 @@
+# Day 3 – Create a Subnet in AWS
+
+## Objective
+Create a subnet in AWS to segment a VPC into smaller, manageable networks for better organization and security.
+
+## Services Used
+- Amazon VPC
+
+## Steps Performed
+- Logged in to the AWS Management Console via lab credentials
+- Navigated to **VPC Dashboard**
+- Clicked on **Subnets** in the left-hand menu
+- Clicked **Create subnet**
+- Selected:
+   - VPC: **Choose your existing VPC**
+   - Subnet name: **Enter a descriptive name**
+   - Availability Zone: **Select desired AZ**
+   - IPv4 CIDR block: **Enter subnet CIDR (e.g., 10.0.1.0/24)**
+- Clicked **Create subnet**
+
+## Outcome
+- Successfully created a subnet within the selected VPC
+- Subnet is ready for launching EC2 instances or other AWS resources
+
+## Notes
+- Subnets divide a VPC’s IP range into smaller sections for organized resource allocation
+- Public subnets can be configured with a route to an Internet Gateway
+- Private subnets can be kept isolated for internal resources
 
